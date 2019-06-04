@@ -1,4 +1,7 @@
 /* General Styles */
+.clear{
+    clear: both;
+}
 
 a{
     color: #0288d1;
@@ -11,7 +14,93 @@ a:hover{
 
 body{
     direction: rtl;
-    font-family: Tahoma !important;,sans-serif;
+    font-family: Tahoma ,sans-serif;
     font-size: 12px;
+    background: #c5c5c5;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* Container */
+
+#container{
+    width: 850px;
+    margin: auto;
+    background: #fff;
+    padding: 8px;
+}
+
+/* Header */
+
+#header{
+    background: #2980b9;
+    padding: 15px;
+    color: #fff;
+}
+
+#header h1{
+   text-align: center;
+    font-family: Arial;
+
+}
+
+#header h2{
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* Navigation */
+
+#nav{
+    text-align: center;
+    margin-top: 15px;
+    border-bottom: #ccc dashed 2px;
+    padding-bottom: 10px;
+}
+
+#nav ul li{
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+/* Articles */
+
+#aticles{
+    width: 67%;
+    float: right;
+    text-align: justify;
+    padding-top: 15px;
+    line-height: 22px;
+}
+
+/* SideBar */
+
+.sidebarItem{
+    width: 28%;
+    float: left;
+    padding-top: 15px;
+    border-bottom: #cccccc solid 1px;
+
+    padding-bottom: 15px;
+}
+
+.sidebarItem{
+    line-height: 22px;
+}
+
+/* Footer */
+
+#footer{
+    margin: 15px;
+    text-align: center;
+    background: gray;
+    color: #fff;
+    padding: 10px;
 
 }
